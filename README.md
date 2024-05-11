@@ -5,13 +5,17 @@ This is a Bash script for creating music playlists in the m3u format. The playli
 ## Features
 The script provides several ways to create a playlist:
 
-### Playlist based on a directory and its subdirectories: The script prompts the user to select a directory. The playlist will consist of all mp3 files in the selected directory and its subdirectories.
+### Playlist based on a directory and its subdirectories: 
+The script prompts the user to select a directory. The playlist will consist of all mp3 files in the selected directory and its subdirectories.
 
-### Set keywords to define playlist content: The user can input keywords (such as artist or album names) to define the content of the playlist. The script will search for mp3 files in the selected directory and its subdirectories that match the keywords.
+### Set keywords to define playlist content: 
+The user can input keywords (such as artist or album names) to define the content of the playlist. The script will search for mp3 files in the selected directory and its subdirectories that match the keywords.
 
-### Limit the maximum duration of songs to be included in the playlist: The user can specify a maximum duration (in minutes) for songs to be included in the playlist. The script will exclude songs that exceed this duration.
+### Limit the maximum duration of songs to be included in the playlist: 
+The user can specify a maximum duration (in minutes) for songs to be included in the playlist. The script will exclude songs that exceed this duration.
 
-### Include only files that have been added or modified after a certain date: The user can specify a date, and the script will include only files that have been added or modified after this date.
+### Include only files that have been added or modified after a certain date: 
+The user can specify a date, and the script will include only files that have been added or modified after this date.
 
 ## Usage
 To activate the script, type the command chmod +x $HOME/funkRadio/make_playlist.sh . To run the script, type HOME/funkRadio/make_playlist.sh .
