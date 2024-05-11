@@ -18,7 +18,8 @@ The user can specify a maximum duration (in minutes) for songs to be included in
 The user can specify a date, and the script will include only files that have been added or modified after this date.
 
 ## Usage
-To activate the script, type the command chmod +x $HOME/funkRadio/make_playlist.sh . To run the script, type HOME/funkRadio/make_playlist.sh .
-The script will present a menu with the above options. Select an option by typing its corresponding number and pressing Enter.
+Place the script make_playlist.sh into the directory $HOME/funkRadio/. To activate the script, type 'chmod +x $HOME/funkRadio/make_playlist.sh'. To run the script, type 'HOME/funkRadio/make_playlist.sh'.
+
+When launched, the script will present a menu with options listed above in Features. Select an option by typing its corresponding number and pressing Enter.
 
 The script will then guide you through the process of creating a playlist. The resulting playlist will be saved in the directory $HOME/funkRadio.
