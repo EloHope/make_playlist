@@ -1,6 +1,6 @@
 # make_playlist
 
-This is a Bash script for creating music playlists in the m3u format. The playlists consist only of straight filenames of mp3 files. The script is developed for Linux bash shell and requires the bc package to be installed.
+This is a Bash script for creating music playlists in the m3u format. The playlists consist only of straight filenames of mp3 files. The script is developed for Linux Bash shell and requires the bc package to be installed.
 
 ## Features
 The script provides several ways to create a playlist:
